@@ -1,6 +1,6 @@
 import scrapy
 import string
-from urllib.parse import unquote,quote;
+from urllib.parse import unquote,quote
 from ..items import ShuilinewsItem
 class ShuiliSpider(scrapy.Spider):
     name='shuili'
